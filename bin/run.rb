@@ -1,3 +1,5 @@
+# instantiates the SQLRunner class in the below file
+
 require_relative 'environment'
 
 db = SQLite3::Database.new('../db/lab_database.db')
